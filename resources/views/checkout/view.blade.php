@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
-        <!-- Bootstrap core CSS -->
-        <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
-
-        <!-- Custome CSS -->
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    </head>
-    <body>
+@extends('layouts.app')
+@section('content')    
         
     <form>
         <div id="page-order-confirm">
-            <div id="header-block">
+            <div id="header-block" class="mt-md-4">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 position-relative">
@@ -613,12 +595,4 @@
         </div>
       </div>
 
-
-    <script src="{{asset('js/jquery.min.js')}}"></script>
-    <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-	<script>
-		
-		
-	</script>
-    </body>
-</html>
+@endsection

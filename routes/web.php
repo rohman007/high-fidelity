@@ -18,9 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/checkout', function () {
-    return view('pages.checkout');
+    return view('checkout.view');
 });
 
-Route::get('/cart', function () {
-    return view('pages.cart');
+Route::get('/payment', function () {
+    return view('payment.view');
 });
