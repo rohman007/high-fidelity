@@ -24,3 +24,7 @@ Route::get('/checkout', function () {
 Route::get('/payment', function () {
     return view('payment.view');
 });
+
+Route::get('/invoice', function () {
+    return view('invoice.view');
+});

@@ -447,7 +447,7 @@ div#total-amount span {
 
 /*Order Confirmation*/
 h2.page-title {
-    font-size: 22pt;
+    font-size: 20pt;
     padding: 16px 0 10px;
     margin: 10px 0 10px;
     font-weight: 600;
@@ -565,6 +565,36 @@ div#order-item span.discountprice {
     color: #ee4d2d;
 }
 
+/*Invoice Page*/
+#page-invoice{
+    background: #fff;
+}
+.head-label {
+    font-size: 14pt;
+    font-weight: 600;
+}
+.address-detail{font-size: 10.5pt;}
+.additional-selected {
+    font-size: 10pt;
+    color: #6D6D6D;
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+div#page-invoice .back-button {
+    background: #D94D4D;
+    border-radius: 10px !important;
+    color: #fff;
+    font-size: 13pt;
+    padding: 13px 0;
+    font-weight: 500;
+}
+div#page-invoice .detail-payment td {
+    padding: 4px 0;
+}
+#page-invoice div#total-payment div:last-child{color:#3A3A3A}
+.bb-solid{border-bottom: 1px solid #B7B7B7;}
+.color-green{color: #2F9C6E !important;}
+
 
 /*Payment Page*/
 .total-price {
@@ -655,6 +685,7 @@ div#page-payment .bank-image {
 		font-size: 14pt;
 		color: #3A3A3A;
 		padding: 16px 0 15px !important;
+        line-height: normal;
 	}
     img.image-back {
         height: 17px;
@@ -916,7 +947,7 @@ div#page-payment .bank-image {
 		display: block !important;
 		border-bottom: 15px solid #f5f5f5;
 	}
-	.payment-input {
+	#page-payment .payment-input {
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -932,4 +963,23 @@ div#page-payment .bank-image {
 		padding: 4px;
 		margin-right: 14px;
 	}
+    div#page-invoice .card-header {
+        display: none !important;
+    }
+    #page-invoice .container {
+        padding: 0 5px;
+    }
+    .head-label {
+        font-size: 12pt;
+        font-weight: 600;
+    }
+    #detail-order-status > div > div:last-child{text-align: right;max-width: 80%;}
+    #detail-order-status .fw-bold{font-weight: 500 !important;}
+    #page-invoice br{display: none;}
+    #page-invoice .subtotal-product {
+        margin-top: -25px;
+    }
+    #page-invoice .menu-thumbnail{
+        border: 0;
+    }
 }
