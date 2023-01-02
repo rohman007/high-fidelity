@@ -23,9 +23,18 @@
 
 		<script src="{{asset('js/jquery.min.js')}}"></script>
 		<script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
+
 		<script>
-			
-			
+		function CopyToClipboard(id)
+		{
+		var r = document.createRange();
+		r.selectNode(document.getElementById(id));
+		window.getSelection().removeAllRanges();
+		window.getSelection().addRange(r);
+		document.execCommand('copy');
+		window.getSelection().removeAllRanges();
+		alert("Copied to clipboard");
+		}
 		</script>
     </body>
 </html>

@@ -19,20 +19,20 @@
                         <div class="card-header"><h2>Alamat Pengiriman</h2></div>
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-12 col-md-4 d-md-flex align-items-start">
+                                <div class="col-12 col-lg-4 d-md-flex align-items-start mb-md-3 mb-lg-0">
                                     <div class="d-flex d-md-block">
                                         <div class="fw-bold mb-1 customer-name me-3">Cristiano Ronaldo</div>
                                         <div class="fw-bold customer-phone">081XXXXXXXXX</div>
                                     </div>
                                     <div class="d-none d-md-flex ">
-                                        <div class="me-2">(Rumah)</div>
+                                        <div class="">(Rumah)</div>
                                         <label class="label-address">Utama</label>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-8 col-lg-6">
                                     <div class="customer-address">Jl. Bambu Runcing No.66, Kec. Bambu Runcing III, Jakarta Pusat, 66661</div>
                                 </div>
-                                <div class="col-12 col-md-2 d-flex justify-content-end align-items-start">
+                                <div class="col-12 col-md-4 col-lg-2 d-flex justify-content-end align-items-start">
 									<!-- Button trigger modal -->
                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#addressModal">
                                     Ubah Alamat
@@ -46,9 +46,9 @@
                     <div class="card">
                         <div class="card-header d-md-flex d-none row">
                             <div class="col-12 col-md-7"><h2>Produk Dipesan</h2></div>
-                            <div class="col-12 col-md-2 text-center">Harga Satuan</div>
-                            <div class="col-12 col-md-1 text-center">Jumlah</div>
-                            <div class="col-12 col-md-2 text-center">Subtotal Produk</div>
+                            <div class="col-12 col-md-2 text-center d-none d-lg-block">Harga Satuan</div>
+                            <div class="col-12 col-md-2 col-lg-1 text-center">Jumlah</div>
+                            <div class="col-12 col-md-3 col-lg-2 text-center">Subtotal Produk</div>
                         </div>
                         <div class="card-body">
                             <div id="order-item">
@@ -66,9 +66,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-2 d-none d-md-block">Rp. 13.000.000</div>
-                                    <div class="col-12 col-md-1 text-center qty-product">1 <span class="d-inline d-md-none">Unit</span></div>
-                                    <div class="col-12 col-md-2 text-end subtotal-product">Rp. 13.000.000</div>
+                                    <div class="col-12 col-md-2 d-none d-lg-block">Rp. 13.000.000</div>
+                                    <div class="col-12 col-md-2 col-lg-1 text-center qty-product">1 <span class="d-inline d-md-none">Unit</span></div>
+                                    <div class="col-12 col-md-3 col-lg-2 text-end subtotal-product">Rp. 13.000.000</div>
                                 </div>
                                 <div class="menu-thumbnail row">
                                     <div class="d-flex col-12 col-md-7">
@@ -83,16 +83,16 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 col-md-2 d-none d-md-block">Rp. 130.000</div>
-                                    <div class="col-12 col-md-1 text-center qty-product">2 <span class="d-inline d-md-none">Unit</span></div>
-                                    <div class="col-12 col-md-2 text-end subtotal-product">Rp. 260.000</div>
+                                    <div class="col-12 col-md-2 d-none d-lg-block">Rp. 130.000</div>
+                                    <div class="col-12 col-md-2 col-lg-1 text-center qty-product">2 <span class="d-inline d-md-none">Unit</span></div>
+                                    <div class="col-12 col-md-3 col-lg-2 text-end subtotal-product">Rp. 260.000</div>
                                 </div>
                             </div>
                         </div>
                         <div class="card-footer">
                             <div class="row">
-                                <div class="col-12 col-md-7 label-ongkir">Opsi Pengiriman : </div>
-                                <div class="col-12 col-md-5 d-flex shipping-input">
+                                <div class="col-12 col-lg-7 label-ongkir mb-md-3 mb-lg-0">Opsi Pengiriman : </div>
+                                <div class="col-12 col-md-12 col-lg-5 d-flex shipping-input">
                                     <div class="col-8">
                                         Reguler (2Kg) 
                                         <!-- Button trigger modal -->
@@ -115,7 +115,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="row align-items-center">
-                                <div class="col-7 col-md-3">
+                                <div class="col-7 col-md-12 col-lg-3 mb-md-3 mb-lg-0">
                                     <h2>Metode Pembayaran</h2>
                                 </div>
                                 <div class="col-5 d-flex d-md-none justify-content-end">
@@ -125,7 +125,7 @@
                                     </button>
                                 </div>
 
-                                <div class="col-12 col-md-9 d-none d-md-block">
+                                <div class="col-12 col-lg-9 d-none d-md-block">
                                     <ul class="nav nav-tabs" id="myTab" role="tablist">
                                         <li class="nav-item" role="presentation">
                                             <button class="nav-link active" id="transfer-tab" data-bs-toggle="tab" data-bs-target="#transfer" type="button" role="tab" aria-controls="transfer" aria-selected="true">Transfer Bank</button>
@@ -149,7 +149,7 @@
                                     <div class="col-12 col-md-3">
                                         <h2 class="mt-1">Pilih Bank</h2>
                                     </div>
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-md-9 col-lg-6">
                                         <div class="row">
                                             <div class="col-12 col-sm-4">
                                                 <label class="custome-bank-radio">
@@ -208,7 +208,7 @@
                                     <div class="col-12 col-md-3">
                                         <h2 class="mt-1">Pilih E-Wallet</h2>
                                     </div>
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-md-9 col-lg-6">
                                         <div class="row">
                                             <div class="col-12 col-sm-4">
                                                 <label class="custome-bank-radio">
@@ -235,7 +235,7 @@
                                     <div class="col-12 col-md-3">
                                         <h2 class="mt-1">Pilih Qris</h2>
                                     </div>
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-md-9 col-lg-6">
                                         <div class="row">
                                             <div class="col-12 col-sm-4">
                                                 <label class="custome-bank-radio">
@@ -254,7 +254,7 @@
                                     <div class="col-12 col-md-3">
                                         <h2 class="mt-1">Pilih Paylatter</h2>
                                     </div>
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-md-9 col-lg-6">
                                         <div class="row">
                                             <div class="col-12 col-sm-4">
                                                 <label class="custome-bank-radio">
@@ -275,7 +275,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="row justify-content-end">
-                                <div class="col-12 col-md-5">
+                                <div class="col-12 col-md-12 col-lg-5">
                                     <div id="voucher-order">
                                         <div class="d-flex form-voucher">
                                             <input type="text" placeholder="Ada Kupon? Isi kupon kamu disini" class="form-control">
@@ -342,7 +342,11 @@
 					<input type="radio" name="address">
 					<div class="action-radio"></div>
 					<div class="me-3">
-						<div class="fw-bold mb-1 customer-name">Cristiano Ronaldo</div>
+						<div class="d-flex align-items-start">
+							<div class="fw-bold mb-1 customer-name">Cristiano Ronaldo</div>
+							<label class="label-address tag-label">Rumah</label>
+							<label class="label-address">Utama</label>
+						</div>
 						<div class="customer-phone mb-1">081XXXXXXXXX</div>
 						<div class="customer-address">Jl. Bambu Runcing No.66, Kec. Bambu Runcing III, Jakarta Pusat, 66661</div>
 					</div>
@@ -588,11 +592,23 @@
   
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-              <button type="button" class="btn btn-primary">Konfirmasi</button>
+				<div class="mb-2">Total Pembayaran : <span class="color-red fw-bold">Rp. 13.170.000</span></div>
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+				<button type="button" class="btn btn-primary">Konfirmasi</button>
             </div>
           </div>
         </div>
       </div>
+	<script>
+		function CopyToClipboard(id)
+		{
+		var r = document.createRange();
+		r.selectNode(document.getElementById(id));
+		window.getSelection().removeAllRanges();
+		window.getSelection().addRange(r);
+		document.execCommand('copy');
+		window.getSelection().removeAllRanges();
+		}
+	</script>
 
 @endsection

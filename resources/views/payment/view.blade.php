@@ -3,7 +3,7 @@
         
 	<div id="page-payment" class="mt-md-5">
 		<div class="container d-flex justify-content-center">
-			<div class="col-12 col-md-10 px-0">
+			<div class="col-12 col-lg-10 px-0">
 				<div id="">
 					<div class="card border-0">
 						<div class="card-header d-flex align-items-center">
@@ -15,7 +15,7 @@
 						</div>
 						<div class="card-body">
 							<div class="row justify-content-center">
-								<div class="col-12 col-md-9">
+								<div class="col-12 col-lg-9">
 									<div class="d-block d-md-flex justify-content-between pb-4 pt-3 pt-md-2 bb-dashed">
 										<div class="fw-500">Total Pembayaran</div>
 										<div class="fw-bold total-price">Rp. 13.320.000</div>
@@ -27,9 +27,9 @@
 											<div class="d-flex align-items-center justify-content-between">
 												<div>
 													<div class="label-norek">Kode Bayar</div>
-													<div class="data-norek">123 45678 9012</div>
+													<div class="data-norek" id="data-norek">123 45678 9012</div>
 												</div>
-												<a href="" class="btn btn-primary copy-norek">Salin</a>
+												<a href="#" onclick="CopyToClipboard('data-norek');return false;" class="btn btn-primary copy-norek">Salin</a>
 											</div>
 										</div>
                                     </label>
