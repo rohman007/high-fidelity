@@ -365,7 +365,7 @@ span.liked {
     padding-bottom: 25px;
     font-weight: 500;
 }
-div#footer-block {
+div#buton-order {
     position: relative;
     bottom: 0;
     padding-left: 0;
@@ -673,7 +673,13 @@ div#page-payment .bank-image {
         font-size: 13pt;
     }
 	.modal-body {
-		padding: 20px 20px;
+		padding: 20px 10px;
+	}
+	.modal-footer {
+		padding: 25px 10px;
+	}
+	.add-address {
+		padding: 5px 25px 15px;
 	}
     .card {
         border: 0;
@@ -696,7 +702,7 @@ div#page-payment .bank-image {
         height: 17px;
     }
     div#customer-data {
-        margin: 0 -15px;
+        margin: 0 -10px;
     }
     .card-header {
         border: 0;
@@ -728,7 +734,7 @@ div#page-payment .bank-image {
     }
     div#customer-data button.btn.btn-primary,.shipping-input button.btn.btn-primary {
         position: absolute;
-        right: 20px;
+        right: 12px;
         top: 50%;
         transform: translateY(-50%);
         font-size: 0;
@@ -743,7 +749,7 @@ div#page-payment .bank-image {
         right: 0;
     }
     div#order-desc-block {
-        margin: 0 -15px;
+        margin: 0 -10px;
     }
 	div#order-item > .row {
 		margin: 0 -10px;
@@ -787,14 +793,14 @@ div#page-payment .bank-image {
         border-bottom: 1px solid #E1E1E1;
         font-weight: 500;
         /* padding: 0 0 13px; */
-        padding: 0 0px 13px;
+        padding: 0 0px 13px !important;
         margin-top: -6px;
         margin-bottom: 13px;
         font-size: 11pt;
     }
     .shipping-input {
         /* padding: 0 30px 0 0; */
-        padding: 0 30px 0 0px;
+        padding: 0 30px 0 0px !important;
         position: relative;
     }
 	.total-order {
@@ -815,7 +821,7 @@ div#page-payment .bank-image {
         font-weight: 600;
     }
     div#payment-data {
-        margin: 0 -15px;
+        margin: 0 -10px;
     }
     div#payment-data h2 {
         font-size: 12pt;
@@ -837,7 +843,7 @@ div#page-payment .bank-image {
         margin: 0;
     }
     div#price-detail-order {
-        margin: 0 -15px;
+        margin: 0 -10px;
     }
     div#payment-data .card {
         margin: 0;
@@ -866,14 +872,15 @@ div#page-payment .bank-image {
     .detail-payment {
         padding: 5px 0 4px;
     }
-    div#footer-block {
+    div#buton-order {
         position: relative;
         bottom: 0;
-        padding-left: 0px;
+        padding-left: 10px;
         margin-bottom: 0;
         background: #fff;
-        width: 100%;
         border-radius: 5px;
+		margin-left: -10px;
+		margin-right: -10px;
     }
     .btn-submit {
         background: #D94D4D;
@@ -891,11 +898,11 @@ div#page-payment .bank-image {
         border: 0;
     }
     .modal-footer .btn-secondary{display: none;}
-    div#footer-block .container {
+    div#buton-order .container {
         padding-right: 0;
 		padding-left:10px;
     }
-    div#footer-block .justify-content-end {
+    div#buton-order .justify-content-end {
         justify-content: space-between !important;
     }
     div#page-order-confirm {
@@ -1006,6 +1013,17 @@ div#page-payment .bank-image {
     #page-invoice .menu-thumbnail{
         border: 0;
     }
+	.container {
+		padding: 0 10px;
+	}
+	.row{
+		margin-left:-10px;
+		margin-right:-10px;
+	}
+	.row>*{
+		padding-left:10px;
+		padding-right:10px;
+	}
 }
 
 

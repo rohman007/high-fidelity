@@ -311,18 +311,17 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div id="footer-block">
-            <div class="container">
-                <div class="d-flex align-items-center justify-content-end">
-                    <div id="total-amount" class="d-block d-md-none">
-                        <span class="label-total">Total Pembayaran</span>
-                        <span class="pricenow">Rp. 13.170.000</span>
-                    </div>
-                    <input type="submit" class="btn btn-submit d-none d-md-block" value="Buat Pesanan">
-                    <input type="submit" class="btn btn-submit d-block d-md-none" value="Checkout">
-                </div>
+				
+				<div id="buton-order">
+					<div class="d-flex align-items-center justify-content-end">
+						<div id="total-amount" class="d-block d-md-none">
+							<span class="label-total">Total Pembayaran</span>
+							<span class="pricenow">Rp. 13.170.000</span>
+						</div>
+						<input type="submit" class="btn btn-submit d-none d-md-block" value="Buat Pesanan">
+						<input type="submit" class="btn btn-submit d-block d-md-none" value="Checkout">
+					</div>
+				</div>
             </div>
         </div>
     </form>
